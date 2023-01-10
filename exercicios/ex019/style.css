@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/*
+    Em HTML é id    = em CSS é #
+    Em html é class = em CSS é .
+*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+}
+h1{
+    color: darkslategrey;
+}
+
+#titulo {
+    color: chartreuse;
+    text-align: center;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+     color: rgb(126, 128, 0);
+}
+
+.avancado {
+ color: rgb(128, 0, 0);
+}

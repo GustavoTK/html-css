@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproduzindo Video</title>
+</head>
+<body>
+    <h1>Reprodução de video</h1>
+    <h2>Hospedagem local</h2>
+    <p>Vamos fazer o site reproduzir video do meu servidor hospedado</p>
+
+    <video width="560" preload="metadata" poster="imagem/thumbnail-video.png" controls loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <p>Seu navegador não é compativek com a reprodução de video</p>
+    </video>
+
+    <h2>Hospedagem externa</h2>
+    <p>Vamos fazer o site reproduzir o video de uma hospadagem externa (Youtube)</p>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
